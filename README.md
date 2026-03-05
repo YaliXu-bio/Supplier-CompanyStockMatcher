@@ -1,4 +1,4 @@
-# Total Asia – Supplier ↔ ERP Matching & Stock Check
+# TA company – Supplier ↔ ERP Matching & Stock Check
 
 ## Purpose
 Match supplier availability data (**Supplier**) into the internal ERP item master (**ERP**) and generate a **Stock Check** file for import/checking.
