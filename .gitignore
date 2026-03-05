@@ -1,21 +1,27 @@
 # macOS
 .DS_Store
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Jupyter
-.ipynb_checkpoints/
+*.ipynb
 
-# Generated outputs
+# Outputs (generated)
 output/
 
-# Data files (ignore by default)
+# Real data (never commit)
+Real_data/
+
+# Spreadsheets: ignore by default
 *.xlsx
 *.xls
+*.csv
 
-# Allow sample data if you put it under sample_data/
+# Allow anonymized samples ONLY under sample_data/
 !sample_data/
-!sample_data/*.xlsx
-!sample_data/*.xls
+!sample_data/**/*.xlsx
+!sample_data/**/*.xls
+!sample_data/**/*.csv

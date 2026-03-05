@@ -1,4 +1,4 @@
-from totalasia_matcher import run_stock_check, MatchConfig
+from matcher import run_stock_check, MatchConfig
 
 cfg = MatchConfig(
     min_common_words_primary=3,
