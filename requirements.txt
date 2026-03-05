@@ -1,0 +1,5 @@
+pandas
+numpy
+openpyxl
+rapidfuzz
+xlrd>=2.0.1; python_version>="3.8"

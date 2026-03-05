@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+output/
+
+# Data files (ignore by default)
+*.xlsx
+*.xls
+
+# Allow sample data if you put it under sample_data/
+!sample_data/
+!sample_data/*.xlsx
+!sample_data/*.xls
